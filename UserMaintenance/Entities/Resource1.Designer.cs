@@ -68,23 +68,5 @@ namespace UserMaintenance.Entities {
                 return ResourceManager.GetString("Add", resourceCulture);
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Keresztnév.
-        /// </summary>
-        public static string FirstName {
-            get {
-                return ResourceManager.GetString("FirstName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Vezetéknév.
-        /// </summary>
-        public static string LastName {
-            get {
-                return ResourceManager.GetString("LastName", resourceCulture);
-            }
-        }
     }
 }
